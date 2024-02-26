@@ -38,3 +38,28 @@ console.log(typeof myFunction);
 console.log(typeof anotherId);
 
 // http://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+//---------------------------------------------------------------
+
+//Stack (Primitive),Heap(Non-Primitive)
+
+let myYoutubename = "priyadarshirajeev"
+
+let anothername = myYoutubename
+anothername = "mystriouspodcast"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+   email : "user123@gmail.com",
+    upi: "user@paytm"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rajeev.11aug@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
