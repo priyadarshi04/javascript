@@ -35,17 +35,20 @@ const users = [
         email : "rajeeb@.com"
     },
     {
-        id : 21,
+        id : 1,
         email : "hmavmdctkvmh.om"
+    },
+    {
+       id : 1,
+       email: "sdcbjdbc@gmail.com"
     },
 
 ]   
 users[1].email   
-console.log(tinderUser); 
+console.log(tinderUser);
 
-console.log (objects.keys(tinderUser));
-console.log(objects.values(tinderUser));
-console.log(objects.entries(tinderUser));
-console.log(objects)
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLogged'));
