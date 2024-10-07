@@ -24,7 +24,7 @@ console.log("har\"".length);
 let numbers = [1,2,4,5,6]
 //numbers[1] = 8;
 //numbers.shift()
-numbers.unshift()
-//numbers.push(7)
+//numbers.unshift()
+numbers.push(7)
 //numbers.pop();
 console.log(numbers);
